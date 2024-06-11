@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tela-de-boas-vindas" class="tela ativa">
+        <h1 class="jogo">Jogo de Adivinhação</h1>
+        <form id="formulario-de-boas-vindas">
+            <label for="nome-usuario" class="nomes">Digite seu Nome:</label>
+            <input type="text" id="nome-usuario" name="nome-usuario" required>
+            <button type="submit" class="jgr">Jogar</button>
+        </form>
+    </div>
+    
+    <div id="tela-do-jogo" class="tela oculta">
+        <h2 id="mensagem-de-boas-vindas" class="boas"></h2>
+        <p class="tente">Tente adivinhar um número entre 1 e 100.</p>
+        <input type="number" id="entrada-adivinhacao" min="1" max="100" required>
+        <button id="botao-adivinhar" class="adv">Adivinhar</button>
+        <p id="mensagem-de-feedback" class="fdk"></p>
+    </div>
+    
+    <div id="tela-de-resultado" class="tela oculta">
+        <h2 id="mensagem-de-resultado" class="msgresul"></h2>
+        <p id="numero-correto" class="correto"></p>
+        <p id="mensagem-de-pontuacao" class="tnt"></p>
+        <button id="botao-jogar-novamente" class="jgnv">Jogar Novamente</button>
+        <button id="botao-ver-pontuacao" class="jgnv">Ver Pontuação</button>
+    </div>
+    
+    <div id="tela-de-pontuacao" class="tela oculta">
+        <h2 class="msgresul">Pontuação dos Jogadores</h2>
+        <ul id="lista-de-pontuacao" class="correto"></ul>
+        <button id="botao-voltar" class="jgnv">Voltar</button>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

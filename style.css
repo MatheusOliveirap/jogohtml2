@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pngtree-dozens-of-old-rpg-and-nintendo-gadgets-picture-image_2685745.jpg);
+}
+
+.tela {
+    display: none;
+    padding: 20px;
+}
+
+.tela.ativa {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.nomes {
+    font-size: 20px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jogo {
+    font-size: 50px;
+    margin: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jgr,
+.adv,
+.jgnv {
+    background-color: rgb(255, 0, 0);
+}
+
+.tente {
+    font-size: 20px;
+    margin: 20px;
+    color: rgb(238, 255, 87);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boas {
+    font-size: 35px;
+    margin: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fdk {
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(238, 255, 87);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.msgresul {
+    font-size: 30px;
+    margin: 20px;
+    color: rgb(238, 255, 87);
+    font-weight: bold;
+}
+
+.correto,
+.tnt {
+    font-size: 20px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
